@@ -1,0 +1,86 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: lightslategray;
+    font-family: 'Itim', cursive;
+}
+
+h4 {
+    color: #337ab7;
+    line-height: 20px;
+    top: 5px;
+    /*left: -50px;*/
+}
+.icon-bar {
+    background-color: black;
+}
+.container-fluid {
+    border: 1px solid lightslategray;
+}
+.row {
+    width: 80%;
+    height: 200%;
+    left: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #eee;
+    color: black; 
+    padding: 50px;
+}
+.instruction {
+    border-top: 1px solid black;
+    
+}
+
+#buttton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+    /*VERTICAL MENU START*/
+    .vertical-menu {
+    position: absolute;
+    width: 200px; /* Set a width if you like */
+    float: left;
+    /*overflow: auto;*/
+}
+
+    .vertical-menu a {
+        background-color: #eee; /* Grey background color */
+        color: black; /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+        .vertical-menu a:hover {
+            background-color: #ccc; /* Dark grey background on mouse-over */
+        }
+
+        .vertical-menu a.active {
+            background-color: slategray; /* Add a green color to the "active/current" link */
+            color: white;
+        }
+/*VERTICAL END*/
+
+@media only screen and (max-width: 540px) {
+    .col-sm-3 {
+        width: 23.9%;
+
+    }
+    .col-sm-12 {
+       left: 24.4%;
+    }
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+    
+  
+}
+    
+
